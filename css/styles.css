@@ -1,17 +1,19 @@
 /* Колір основного тексту #212121 */
 /* Вторинний колір тексту #757575 */
 /* Вторинний колір фону #2F303A / #F5F4FA */
-/* Білий #FFFFFF */
+/* Білий #FFFFFF #EEEEEE */
 /* Акцент #2196F3 / #188CE8 */
 /* Вторинний колір фону #2F303A */
 
-:root{ --primary-text-color:#212121;
-       --title-text-color:#757575;
-     --accent-color: #2196F3;
-    --primary-white-color: #fff;
-  --secondary-bcg-color:#2F303A;
+:root{ 
+--primary-text-color:#212121;
+--title-text-color:#757575;
+--accent-color: #2196F3;
+--primary-white-color: #fff;
+--secondary-bcg-color:#2F303A;
 --third-bcg-color: #F5F4FA;
---accent-secondary-color: #188CE8;}
+--accent-secondary-color: #188CE8;
+--border-color: #EEEEEE;}
 
 html{ box-sizing: border-box;}
 *,
@@ -46,6 +48,7 @@ margin-bottom: 0;}
   padding-bottom: 94px;
 }
 /* Site header */
+.header{border: 1px solid #ECECEC;}
 .logo {
 
 color:var(--accent-color); text-decoration: none;
@@ -192,6 +195,7 @@ margin-left: 93px;}
   margin-left: 30px;
 }
 
+.user{ border-radius: 0px 0px 4px 4px;}
 .section-team{ 
   padding-top: 94px;
   padding-bottom: 94px;
@@ -260,8 +264,9 @@ line-height: 1.71;
 }
   .pf-button{ margin-left: 10px;}
   
+ /* Portfolio content */
 
-.portfolio-title{ 
+ .portfolio-title{ 
       margin-bottom: 4px;
       color: var(--primary-text-color);
       font-weight: 700;
@@ -270,18 +275,18 @@ line-height: 1.71;
       letter-spacing: 0.06em;}
 
 .pf-link{ color: var(--title-text-color);}
-
+.card-text{ padding: 20px 24px; }
 .portfolio{ 
   display: flex;
   flex-wrap: wrap;
   }
 
 .pf-element{ 
-
- border: 1px;
+ border: 1px solid var(--border-color);
  margin-right: 30px;
  margin-bottom: 30px;
  width: 370px;
 } 
 .pf-element:nth-child(3n){margin-right:0;}
 .pf-element:nth-last-child(-n + 3){margin-bottom: 0;}
+
