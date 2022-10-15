@@ -20,7 +20,7 @@
    <nav class="main-nav">  
        <a href="./index.html" class="logo">Web<span class="accent-head">Studio</span></a>
    <ul class="site-nav">
-       <li class="item"><a href="./index.html" class="link">Студія</a></li>
+       <li class="item"><a href="./index.html" class="link current">Студія</a></li>
        <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
        <li class="item"><a href="" class="link">Контакти</a></li>
    </ul>
@@ -34,18 +34,18 @@
 
 <main>
 <!--Герой-->
-<div class="container">
-        <section class="hero">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+<section class="hero">
+    <div class="container">  
+    <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
             <button type="button" class="hero-button">
             <a href="" class="text">Замовити послугу</a> 
             </button>
         </section>
 </div>
 <!--Блок послуги-->
-<div class="container">
-    <section class="section">
-        <h2 class="visually-hidden">Наші особливості</h2>
+<section class="section">
+    <div class="container">
+    <h2 class="visually-hidden">Наші особливості</h2>
         <ul class="feature-list">
             <li>
                 <h3 class="title">Увага до деталей</h3>
@@ -66,8 +66,8 @@
     </ul>
     </section>
 </div>
-<div class="container">
     <section class="section">
+        <div class="container">
         <h3 class="section-title">Чим ми займаємося</h3>
         <ul class="services">
             <li class="item">
@@ -84,38 +84,49 @@
     </section>
 </div>
 <!--Наша команда-->
-<div class="container">
-    <section class="section-team">
+<section class="section-team">
+      <div class="container">
         <h2 class="section-title">Наша команда</h2>
         <ul class="employees">
             <li class="user">
                 <img src="./images/team1.jpg" width="270" alt="Дизайнер команди">
-                <h3 class="team">Ігор Дем'яненко</h3> 
-                <p class="position">Product Designer</p>
+                <div class="team-items">
+                    <h3 class="team">Ігор Дем'яненко</h3> 
+                    <p class="position">Product Designer</p>
+                </div>
             </li>
+            
             <li class="user">
                 <img src="./images/team2.jpg" width="270" alt="Інтерфейсний розробник">
-                <h3 class="team">Ольга Рєпіна</h3>
-                <p class="position">Frontend Developer</p>
+                <div class="team-items">
+                    <h3 class="team">Ольга Рєпіна</h3>
+                    <p class="position">Frontend Developer</p>
+                </div>
             </li>
+            
             <li class="user">
                 <img src="./images/team3.jpg" width="270" alt="Маркетолог">
-                <h3 class="team">Микола Тарасов</h3>
-                <p class="position">Marketing</p>
+                <div class="team-items">
+                    <h3 class="team">Микола Тарасов</h3>
+                    <p class="position">Marketing</p>
+                </div>
             </li>
+            
             <li class="user">
                 <img src="./images/team4.jpg" width="270" alt="UI Дизайнер">
-                <h3 class="team">Михайло Єрмаков</h3>
-                <p class="position">UI Designer</p>
+                <div class="team-items">
+                    <h3 class="team">Михайло Єрмаков</h3>
+                    <p class="position">UI Designer</p>
+                </div>
             </li>
         </ul>
     </section>
 </div>
 </main>
 <!--Футер-->
-<div class="">
-<footer>
-        <div class="footer container">
+
+<footer class="footer">
+        <div class="container">
            <a href="./index.html" class="logo-footer">Web<span class="accent-footer">Studio</span></a>
             <address>
             <ul class="contact-footer">
@@ -126,7 +137,7 @@
             </address>   
         </div>
 </footer>
-</div>
+
 
 </body>
 
