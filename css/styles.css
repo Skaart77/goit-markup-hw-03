@@ -48,7 +48,9 @@ margin-bottom: 0;}
   padding-bottom: 94px;
 }
 /* Site header */
-.header{border: 1px solid #ECECEC;}
+.header{border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--border-color)}
 .logo {
 
 color:var(--accent-color); text-decoration: none;
