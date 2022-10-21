@@ -49,7 +49,7 @@ img{ display: block;
   
 }
 .section{
-
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 /* Site header */
@@ -123,7 +123,7 @@ margin-left: 93px;}
   text-align: center;
  }
  
- /* .overlay{  
+ .overlay{  
  
   background-position: center ;
   background-repeat: no-repeat;
@@ -131,10 +131,11 @@ margin-left: 93px;}
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/hero_fon.jpg);
+  
+  background-image:linear-gradient(rgba(255, 0, 0, 0.2)), url(../images/hero_fon.jpg);
   background-color: var(--secondary-bcg-color);
   
- } */
+ }
 
 
  .hero-title {
@@ -156,7 +157,8 @@ margin-left: 93px;}
   background-color: var(--accent-color);
   border-radius: 4px;
   display: inline-block;
-   }
+ 
+}
 
 .hero-button:hover , .hero-button:focus{ background-color: var(--accent-secondary-color); } 
 
@@ -304,7 +306,7 @@ line-height: 1.71;
 
 .pf-nav{ 
   display: flex;
-  margin-top: 94px;
+  /* padding-top: 94px; */
   margin-bottom: 50px;
   justify-content: center;
 }
